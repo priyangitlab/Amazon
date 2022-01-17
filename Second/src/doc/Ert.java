@@ -10,7 +10,7 @@ public class Ert {
 
 	public static void main(String[] args) throws InterruptedException
 	{
-		WebDriver driver;
+		WebDriver driver; 
 		for(int i=1;i<=5;i++)
 		{ 
 			System.out.println("Start...");
