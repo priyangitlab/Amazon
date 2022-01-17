@@ -8,13 +8,13 @@ import com.amazon.qa.base.Testbase;
 
 public class LoginPage extends Testbase {
 	
-	@FindBy(name="userName")
+	@FindBy(id="login_field")
 	WebElement userName; 
 	
 	@FindBy(name="password")
 	WebElement password;
 	
-	@FindBy(name="submit")
+	@FindBy(name="commit")
 	WebElement LoginBtn;
 	
 	public LoginPage()
