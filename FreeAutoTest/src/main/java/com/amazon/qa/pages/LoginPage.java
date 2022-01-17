@@ -9,7 +9,7 @@ import com.amazon.qa.base.Testbase;
 public class LoginPage extends Testbase {
 	
 	@FindBy(name="userName")
-	WebElement userName;
+	WebElement userName; 
 	
 	@FindBy(name="password")
 	WebElement password;
