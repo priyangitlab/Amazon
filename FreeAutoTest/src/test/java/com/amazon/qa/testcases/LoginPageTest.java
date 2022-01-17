@@ -16,7 +16,7 @@ public class LoginPageTest extends Testbase {
 		super();
 	}
 	
-	@BeforeMethod
+	@BeforeMethod 
 	public void setUp()
 	{
 		intialization();
